@@ -1,0 +1,20 @@
+## 2.1.a and 2.2
+/build/**
+
+## 2.1.b
+*.jar
+## файл module2.jar из п 2.1.b по-прежнему не должен игнорироваться
+!module2.jar
+
+## 2.1.c
+application-local.properties
+
+## 2.1.d
+/.idea/**
+
+## 2.1.e
+/.idea_copy/**
+!workspace.xml
+
+## 2.2
+!build.*
